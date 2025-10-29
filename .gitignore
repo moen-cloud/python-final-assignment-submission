@@ -1,0 +1,47 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.log
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- Streamlit cache and logs ---
+.streamlit/
+.cache/
+logs/
+tmp/
+
+# --- OS-specific ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+ENV/
+
+# --- Data files ---
+metadata.csv
+metadata.xlsx
+*.zip
+*.tar
+*.gz
+
+# --- VSCode settings ---
+.vscode/
+
+# Ignore data files
+metadata.csv
+metadata.xlsx
+*.zip
+*.tar
+*.gz
+*.csv
+*.xls
+*.xlsx
